@@ -1,4 +1,5 @@
 // Modal 1
+AOS.init();
 document.getElementById('modalButton1').addEventListener('click', function() {
   document.getElementById('myModal1').classList.add('is-active');
 });
