@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Company</title>
+  <link href='/style.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--bulma link-->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+>
+<!--font link-->
+<!--dancing script-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<!--link popins-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<!---->
+
+</head>
+<body>
+    <div class="has-background-primary-100 fixed-banner">
+    <h3 class="has-text-centered py-3 h3Text">My Product</h3>
+  </div>
+  <br><br>
+  <footer class="bg">
+<div class="myText ml-6 p-2	">
+  <h4 id="up" class="has-text-left" data-aos="fade-right">We are hiring</h4>
+  <h3 class="has-text-left" data-aos="fade-left">Heloo,lets join us</h3>
+  <h2 class="has-text-left" data-aos="fade-right">We are the winners</h2>
+</div>
+<p class="has-text-right mr-1 p-5	myText2" data-aos="fade-left">New Product</p>
+  </footer>
+  <section data-aos="fade-up">
+    <div class="container is-fluid has-background-primary-100">
+      <div class="columns">
+        <div class="column is-12 is-12-desktop">
+          <section class="section">
+            <div class="container" data-aos="fade-up">
+              <h2 class="title has-text-centered has-text-grey-dark">Kenapa Harus Kami?</h2>
+              <p class="subtitle has-text-centered has-text-grey">
+                Tiga alasan utama untuk memilih kami sebagai mitra terbaik Anda.
+              </p>
+              <div class="columns is-multiline" data-aos="fade-up">
+                <!-- Alasan 1 -->
+                <div class="column is-4">
+                  <div class="card has-shadow">
+                    <div class="card-content has-background-light">
+                      <p class="title is-5 has-text-grey-dark">1. Kualitas Terbaik</p>
+                      <p class="content has-text-grey">
+                        Kami menjamin produk dan layanan dengan standar kualitas tinggi untuk kepuasan Anda.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Alasan 2 -->
+                <div class="column is-4">
+                  <div class="card has-shadow">
+                    <div class="card-content has-background-light">
+                      <p class="title is-5 has-text-grey-dark">2. Pelayanan Profesional</p>
+                      <p class="content has-text-grey">
+                        Tim kami terdiri dari tenaga ahli yang siap memberikan solusi terbaik untuk Anda.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Alasan 3 -->
+                <div class="column is-4">
+                  <div class="card has-shadow">
+                    <div class="card-content has-background-light">
+                      <p class="title is-5 has-text-grey-dark">3. Harga Kompetitif</p>
+                      <p class="content has-text-grey">
+                        Kami menawarkan harga yang terjangkau tanpa mengurangi kualitas layanan.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div> 
+      <!----> 
+      <h2 id="middle" class="title has-text-centered has-text-grey-dark" data-aos="fade-up">Produk terlaris kami</h2>
+     <div class="columns is-multiline is-variable is-4" data-aos="fade-up">
+  <!-- Card 1 -->
+  <div class="column is-12-mobile is-6-tablet is-4-desktop">
+    <div class="card mb-3" style="background-color: #f9f9f9;">
+      <div class="columns is-vcentered">
+        <!-- Gambar -->
+        <div class="column is-12-mobile is-4-tablet is-4-desktop">
+          <figure class="image is-4by3">
+            <img src="rempah.jpeg" alt="Gambar Rempah" />
+          </figure>
+        </div>
+        <!-- Konten Card -->
+        <div class="column is-12-mobile is-8-tablet is-8-desktop">
+          <div class="card-content">
+            <p class="title is-5" style="color: #333;">Card title 1</p>
+            <p class="content" style="color: #666;">
+              This is the first card with supporting text below as a natural lead-in to additional content.
+            </p>
+            
+            <!-- Tombol Modal di atas Last updated -->
+            <div class="buttons mb-3">
+              <button class="button is-primary" id="modalButton1">Beli Sekarang</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal 1 -->
+  <div class="modal" id="myModal1">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Modal title</p>
+        <button class="delete" aria-label="close" id="closeModal1"></button>
+      </header>
+      <section class="modal-card-body">
+        <!-- Content for modal -->
+        <p>Jika anda yakin ingin membeli maka kami akan mengarahkan ke tahap pembelian.</p>
+      </section>
+      <footer class="modal-card-foot">
+        <div class="buttons">
+          <button class="button is-success">Beli</button>
+          <button class="button" id="cancelModal1">Batal</button>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="column is-12-mobile is-6-tablet is-4-desktop">
+    <div class="card mb-3" style="background-color: #f9f9f9;">
+      <div class="columns is-vcentered">
+        <!-- Gambar -->
+        <div class="column is-12-mobile is-4-tablet is-4-desktop">
+          <figure class="image is-4by3">
+            <img src="rempah.jpeg" alt="Gambar Rempah" />
+          </figure>
+        </div>
+        <!-- Konten Card -->
+        <div class="column is-12-mobile is-8-tablet is-8-desktop">
+          <div class="card-content">
+            <p class="title is-5" style="color: #333;">Card title 2</p>
+            <p class="content" style="color: #666;">
+              This is the second card with supporting text below as a natural lead-in to additional content.
+            </p>
+            <div class="buttons mb-3">
+              <button class="button is-primary" id="modalButton2">Beli Sekarang</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal" id="myModal2">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Pembelian</p>
+        <button class="delete" aria-label="close" id="closeModal2"></button>
+      </header>
+      <section class="modal-card-body">
+        <p>Jika anda yakin ingin membeli maka kami akan mengarahkan ke tahap pembelian.</p>
+      </section>
+      <footer class="modal-card-foot">
+        <div class="buttons">
+          <button class="button is-success">Beli</button>
+          <button class="button" id="cancelModal2">Batal</button>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="column is-12-mobile is-6-tablet is-4-desktop">
+    <div class="card mb-3" style="background-color: #f9f9f9;">
+      <div class="columns is-vcentered">
+        <!-- Gambar -->
+        <div class="column is-12-mobile is-4-tablet is-4-desktop">
+          <figure class="image is-4by3">
+            <img src="rempah.jpeg" alt="Gambar Rempah" />
+          </figure>
+        </div>
+        <!-- Konten Card -->
+        <div class="column is-12-mobile is-8-tablet is-8-desktop">
+          <div class="card-content">
+            <p class="title is-5" style="color: #333;">Card title 3</p>
+            <p class="content" style="color: #666;">
+              This is the third card with supporting text below as a natural lead-in to additional content.
+            </p>
+            <div class="buttons mb-3">
+              <button class="button is-primary" id="modalButton3">Beli Sekarang</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="modal" id="myModal3">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Pembelian</p>
+        <button class="delete" aria-label="close" id="closeModal3"></button>
+      </header>
+      <section class="modal-card-body">
+        <p>Jika anda yakin ingin membeli maka kami akan mengarahkan ke tahap pembelian.</p>
+      </section>
+      <footer class="modal-card-foot">
+        <div class="buttons">
+          <button class="button is-success">Beli</button>
+          <button class="button" id="cancelModal3">Batal</button>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+<button class="button is-fullwidth" data-aos="fade-up">View more</button>
+<br>
+<h2 id="about" class="title has-text-centered has-text-grey-dark" data-aos="fade-up">Tentang Kami</h2>
+<p class="" data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti praesentium iusto, a ipsam commodi laboriosam est dolor earum blanditiis ea ab facilis voluptatum ducimus harum distinctio nobis tempore. Dicta natus cumque corrupti voluptate iusto quasi delectus praesentium? Modi consequatur eius distinctio ab aut! Sed, voluptatum praesentium error quam dolore nobis nemo delectus soluta sequi neque inventore maxime minus fugiat vero cupiditate, aut perspiciatis eos. Libero aspernatur tenetur incidunt fugiat! Dignissimos voluptate placeat odio qui hic natus aspernatur similique eaque, repellat est maiores magni laudantium voluptatum sapiente. Accusantium hic est magni unde pariatur officiis et commodi fuga voluptatum harum, ullam natus?</p>
+<!---->
+<div class="section" data-aos="fade-up">
+  <div class="container">
+    <h2 class="title has-text-grey-dark">Kontak kami</h2>
+    <div class="columns">
+      <div class="column is-half">
+        <p class="subtitle is-4">Reach us via WhatsApp:</p>
+        <p>
+          <a href="https://wa.me/1234567890" class="button is-primary is-medium" target="_blank">
+            <i class="fab fa-whatsapp"></i>  Chat with us on WhatsApp
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br><br>
+<!---->
+    </div>
+    <footer class="footer" style="background-color: #f0f8ff; color: #1e3a8a;">
+      <div class="content has-text-centered">
+        <div class="columns is-mobile is-centered">
+          <!-- Kolom 1: Logo / Brand -->
+          <div class="column is-narrow">
+            <figure class="image is-128x128">
+              <img src="logo.jpeg" alt="Logo Bisnis Skin Care" />
+            </figure>
+          </div>
+          
+          <!-- Kolom 2: Menu Navigasi -->
+          <div class="column is-narrow">
+            <p class="title is-5 has-text-grey-dark">Menu</p>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#middle">Produk</a></li>
+              <li><a href="#about">Tentang Kami</a></li>
+              <li><a href="#telp">Kontak</a></li>
+            </ul>
+          </div>
+          
+          <!-- Kolom 3: Media Sosial -->
+          <div class="column is-narrow">
+            <p class="title is-5 has-text-grey-dark">Ikuti Kami</p>
+            <div class="buttons">
+              <a class="button is-link" href="#" target="_blank">
+                <span class="icon">
+                  <i class="fab fa-facebook"></i>
+                </span>
+              </a>
+              <a class="button is-link" href="#" target="_blank">
+                <span class="icon">
+                  <i class="fab fa-instagram"></i>
+                </span>
+              </a>
+              <a class="button is-link" href="#" target="_blank">
+                <span class="icon">
+                  <i class="fab fa-twitter"></i>
+                </span>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+        
+        <!-- Copyright -->
+        <p class="has-text-grey-light">
+          &copy; 2024 Bisnis Skin Care. Semua hak cipta dilindungi.
+        </p>
+      </div>
+    </footer>    
+  </section>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://kit.fontawesome.com/3c7dc5b31f.js" crossorigin="anonymous"></script>  <script defer type="text/javascript" src="/main.js"></script>
+</body>
+</html>
