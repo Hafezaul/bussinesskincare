@@ -1,0 +1,10 @@
+  #carouselExampleSlidesOnly {
+    width: 100%; /* Lebar penuh dari ujung ke ujung */
+    height: 250px; /* Sesuaikan tinggi agar mirip dengan hero */
+  }
+
+  #carouselExampleSlidesOnly img {
+    width: 100%; /* Pastikan gambar memenuhi lebar */
+    height: 100%; /* Isi penuh tinggi yang ditentukan */
+    object-fit: cover; /* Jaga proporsi gambar agar terlihat rapi */
+  }
