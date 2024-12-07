@@ -1,10 +1,59 @@
-  #carouselExampleSlidesOnly {
-    width: 100%; /* Lebar penuh dari ujung ke ujung */
-    height: 250px; /* Sesuaikan tinggi agar mirip dengan hero */
-  }
+/* art.css */
 
-  #carouselExampleSlidesOnly img {
-    width: 100%; /* Pastikan gambar memenuhi lebar */
-    height: 100%; /* Isi penuh tinggi yang ditentukan */
-    object-fit: cover; /* Jaga proporsi gambar agar terlihat rapi */
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+h1, h2, h5 {
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Navbar Styles */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffc107;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero {
+      padding: 50px 0;
   }
+}

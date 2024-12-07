@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Pembayaran</title>
+  <!-- Bulma CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title has-text-centered" data-aos="fade-down">Pembayaran</h1>
+      <div class="columns is-centered">
+        <div class="column is-6">
+          <div class="card" data-aos="zoom-in">
+            <div class="card-content">
+              <form>
+                <div class="field">
+                  <label class="label">Nama</label>
+                  <div class="control">
+                    <input class="input" type="text" placeholder="Nama" required>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Alamat Email</label>
+                  <div class="control">
+                    <input class="input" type="email" placeholder="Alamat Email" required>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Nomor Telepon</label>
+                  <div class="control">
+                    <input class="input" type="tel" placeholder="Nomor Telepon" required>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Metode Pembayaran</label>
+                  <div class="control">
+                    <div class="select">
+                      <select required>
+                        <option value="" disabled selected>Pilih Metode Pembayaran</option>
+                        <option>Transfer Bank</option>
+                        <option>Kartu Kredit</option>
+                        <option>PayPal</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Jumlah Pembayaran</label>
+                  <div class="control">
+                    <input class="input" type="number" placeholder="Jumlah Pembayaran" min="0" required>
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="control">
+                    <button class="button is-link is-fullwidth" type="submit" data-aos="fade-up">Bayar Sekarang</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    // Initialize AOS
+    AOS.init();
+  </script>
+</body>
+</html>
